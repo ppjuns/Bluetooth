@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="50dp">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="50dp">
+
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/blueImage"
+        android:src="@drawable/ic_bluetooth_black_24dp"/>
+
+
+    <TextView
+        android:layout_toRightOf="@+id/blueImage"
+        tools:text="@string/app_name"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blueName"
+        android:layout_marginLeft="30dp"
+        />
+
+
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/blueName"
+        tools:text="@string/app_name"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blueMac"
+
+        />
+</RelativeLayout>
+</android.support.v7.widget.CardView>
